@@ -6,7 +6,7 @@ This API should allow a user to change the same data from the command line or th
 
 ## User Stories
 
-* As the Open To-do API, I want to **return** JSON representations of users, lists, and items (Difficulty Rating: 2)
+* [As the Open To-do API, I want to **return** JSON representations of users, lists, and items](docs/USERSTORY01.md) (Difficulty Rating: 2)
 * As a user, I want to **authenticate** myself from the command line, using a username and password (Difficulty Rating: 2)
 * As a user, I want to **create** new users, lists, and items from the command line  (Difficulty Rating: 2)
 * As a user, I want to **remove** users and lists from the command line  (Difficulty Rating: 1)
@@ -18,3 +18,5 @@ This API should allow a user to change the same data from the command line or th
     * [Bloc Serializers Reference](https://www.bloc.io/resources/serializers)
     * [Engine Yard Blog: Serving Custom JSON from your Rails API with ActiveModel::Serializers](https://blog.engineyard.com/2015/active-model-serializers)
     * [RailsCasts: Episode 409. Active Model Serializers](http://railscasts.com/episodes/409-active-model-serializers?autoplay=true)
+* [JSONLint](http://jsonlint.com)
+* [JSONViewer](http://jsonviewer.stack.hu) 

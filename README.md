@@ -10,4 +10,4 @@ The API is built around three core models:
 
 It must return formatted responses that users can read, and machines can generate and parse. This application utilizes **JSON** (JavaScript Object Notation).
 
-For a more in-depth overview, see [the Project file](PROJECT.md).
+For a more in-depth overview, see [the Project file](docs/PROJECT.md).
