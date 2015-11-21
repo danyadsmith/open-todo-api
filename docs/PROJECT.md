@@ -6,7 +6,7 @@ This API should allow a user to change the same data from the command line or th
 
 ## User Stories
 
-* [As the Open To-do API, I want to **return** JSON representations of users, lists, and items](docs/USERSTORY01.md) (Difficulty Rating: 2)
+* [As the Open To-do API, I want to **return** JSON representations of users, lists, and items](USERSTORY01.md) (Difficulty Rating: 2)
 * As a user, I want to **authenticate** myself from the command line, using a username and password (Difficulty Rating: 2)
 * As a user, I want to **create** new users, lists, and items from the command line  (Difficulty Rating: 2)
 * As a user, I want to **remove** users and lists from the command line  (Difficulty Rating: 1)
