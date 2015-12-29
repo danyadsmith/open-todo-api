@@ -22,6 +22,7 @@ group :development do
   gem 'pry-rails' 
 end
 
+gem 'active_model_serializers', '~> 0.9.3'
 gem 'bcrypt', '~> 3.1', '>= 3.1.10'
 gem 'coffee-rails', '~> 4.1.0'
 gem 'faker', '~> 1.5'
