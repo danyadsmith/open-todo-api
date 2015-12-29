@@ -10,6 +10,7 @@ The process of converting a Rails object into a JSON representation is called _s
 * Add to Gemfile: ActiveModelSerializers
 * Add to Gemfile: Faker
 * Modify `seeds.rb` and Seed the Database with Test Data
+* Generate Serializers for Users, Lists, and Items
 * From the Rails Console, confirm that:
     - `UserSerializer.new(User.first).as_json` returns the JSON representation of a User
     - `ListSerializer.new(List.first).as_json` returns the JSON representation of a List
