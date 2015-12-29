@@ -5,6 +5,7 @@ class CreateItems < ActiveRecord::Migration
       t.integer :priority
       t.integer :percent_complete
       t.text :notes
+      t.boolean :today
       t.references :list, index: true, foreign_key: true
 
       t.timestamps null: false

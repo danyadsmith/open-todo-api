@@ -21,6 +21,7 @@ ActiveRecord::Schema.define(version: 20151121182028) do
     t.integer  "priority"
     t.integer  "percent_complete"
     t.text     "notes"
+    t.boolean  "today"
     t.integer  "list_id"
     t.datetime "created_at",       null: false
     t.datetime "updated_at",       null: false
@@ -30,7 +31,7 @@ ActiveRecord::Schema.define(version: 20151121182028) do
 
   create_table "lists", force: :cascade do |t|
     t.string   "title"
-    t.integer  "type"
+    t.integer  "list_type"
     t.integer  "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
